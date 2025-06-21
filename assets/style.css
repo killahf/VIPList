@@ -1,0 +1,38 @@
+
+body {
+    background-color: #0d0d0d;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h1, h2 {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+select, button {
+    font-size: 1.2em;
+    margin: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00ffff;
+    color: black;
+    box-shadow: 0 0 10px #00ffff;
+}
+.word {
+    font-size: 2em;
+    margin: 15px;
+}
+.word:nth-child(1) {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+.word:nth-child(2) {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+.word:nth-child(3) {
+    color: #ffff00;
+    text-shadow: 0 0 10px #ffff00;
+}
